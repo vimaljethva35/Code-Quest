@@ -9,7 +9,9 @@ const Editorial = ({ data }: { data: string }) => {
                 dangerouslySetInnerHTML={{
                     __html: convertMarkdownToHtml(data),
                 }}
+                
             ></div>
+            
         </div>
     );
 };

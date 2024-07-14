@@ -246,7 +246,7 @@ const ProblemPage = ({
                             className="flex justify-end items-center bg-black w-full h-[50px] rounded-lg overflow-hidden border border-borders"
                         >
                             <div
-                                className="w-fit h-fit rounded mr-[11px] px-[20px] py-[4px] hover:bg-green-500 cursor-pointer hover:text-black text-black bg-green-500 text-[14px] active:border-green-800 active:bg-green-800 border-green-500 font-bold right-0 transition select-none"
+                                className="w-fit h-fit rounded mr-[11px] px-[20px] py-[4px] hover:bg-pink-500 cursor-pointer hover:text-black text-black bg-purple-500 text-[14px] active:border-pink-800 active:bg-purple-800 border-pink-500 font-bold right-0 transition select-none"
                                 onClick={submitCode}
                             >
                                 {isSubmitLoading ? (

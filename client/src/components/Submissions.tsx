@@ -22,15 +22,15 @@ const Submissions = ({ data }: { data: SubmissionsData }) => {
                     <div
                         className={`ml-[26px] mt-[36px] font-bold text-[22px] ${
                             status === "Accepted"
-                                ? "text-green-500"
-                                : "text-red-600"
+                                ? "text-pink-500"
+                                : "text-yellow-600"
                         }`}
                     >
                         {status === "Accepted" ? (
                             <i
                                 className="bi bi-check-circle"
                                 style={{
-                                    color: "#22c55e",
+                                    color: "purple",
                                     marginRight: "20px",
                                     width: "22px",
                                     height: "22px",
@@ -135,8 +135,8 @@ const Submissions = ({ data }: { data: SubmissionsData }) => {
                         <div
                             className={`font-bold w-[180px] ${
                                 elem.status === "Accepted"
-                                    ? "text-green-500"
-                                    : "text-red-600"
+                                    ? "text-pink-500"
+                                    : "text-yellow-600"
                             }`}
                         >
                             {elem.status}

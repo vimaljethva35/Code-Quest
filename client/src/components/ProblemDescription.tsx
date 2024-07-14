@@ -14,6 +14,7 @@ const ProblemDescription = ({ data }: { data: DescriptionData }) => {
         <>
             {Object.keys(data).length !== 0 && (
                 <div>
+                    
                     <h1 className="font-bold mt-[36px] ml-[26px] text-[22px]">
                         <span id="problem-id">{data.id}</span>.{" "}
                         {kebabToSpacedPascal(data.name)}
@@ -113,14 +114,21 @@ const ProblemDescription = ({ data }: { data: DescriptionData }) => {
                         </div>
                     </div>
                     <div
+                        
                         id="description-body"
                         className="mt-[36px] ml-[26px] text-[14px]"
+                        
+                              
                         dangerouslySetInnerHTML={{
                             __html: convertMarkdownToHtml(
                                 data.description_body
                             ),
+                            
+                            
+                            
                         }}
                     ></div>
+                    
                 </div>
             )}
         </>

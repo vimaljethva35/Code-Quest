@@ -64,10 +64,10 @@ const SignupPage = ({
                     id="logo-cont"
                     className="inline-block relative text-[24px] left-1/2 -translate-x-1/2 font-bold italic mx-auto mt-[12px]"
                 >
-                    <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600 px-[1px]">
-                        Fire
+                    <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600 px-[1px]">
+                        Code
                     </span>
-                    <span>Code</span>
+                    <span>Quest</span>
                 </div>
             </Link>
             <div className="min-h-fit w-[300px] mx-auto text-[14px]">
@@ -77,7 +77,7 @@ const SignupPage = ({
                     </h2>
                     <div className="mb-4">
                         <input
-                            className="appearance-none border w-full py-2 px-3 placeholder:text-text_2 focus:placeholder:text-orange-500 bg-black rounded border-borders leading-tight focus:outline-none focus:border-orange-500"
+                            className="appearance-none border w-full py-2 px-3 placeholder:text-text_2 focus:placeholder:text-pink-500 bg-black rounded border-borders leading-tight focus:outline-none focus:border-purple-500"
                             type="text"
                             placeholder="Username"
                             value={username}
@@ -87,7 +87,7 @@ const SignupPage = ({
                     </div>
                     <div className="mb-4">
                         <input
-                            className="appearance-none border w-full py-2 px-3 placeholder:text-text_2 focus:placeholder:text-orange-500 bg-black rounded border-borders leading-tight focus:outline-none focus:border-orange-500"
+                            className="appearance-none border w-full py-2 px-3 placeholder:text-text_2 focus:placeholder:text-pink-500 bg-black rounded border-borders leading-tight focus:outline-none focus:border-purple-500"
                             type="email"
                             placeholder="Email"
                             value={email}
@@ -97,7 +97,7 @@ const SignupPage = ({
                     </div>
                     <div className="mb-4">
                         <input
-                            className="appearance-none border w-full py-2 px-3 placeholder:text-text_2 focus:placeholder:text-orange-500 bg-black rounded border-borders leading-tight focus:outline-none focus:border-orange-500"
+                            className="appearance-none border w-full py-2 px-3 placeholder:text-text_2 focus:placeholder:text-pink-500 bg-black rounded border-borders leading-tight focus:outline-none focus:border-purple-500"
                             type="password"
                             placeholder="Password"
                             value={password}
@@ -107,7 +107,7 @@ const SignupPage = ({
                     </div>
                     <div className="mb-6">
                         <input
-                            className="appearance-none border w-full py-2 px-3 placeholder:text-text_2 focus:placeholder:text-orange-500 bg-black rounded border-borders leading-tight focus:outline-none focus:border-orange-500"
+                            className="appearance-none border w-full py-2 px-3 placeholder:text-text_2 focus:placeholder:text-pink-500 bg-black rounded border-borders leading-tight focus:outline-none focus:border-purple-500"
                             type="password"
                             placeholder="Confirm Password"
                             value={confirmPassword}
@@ -117,7 +117,7 @@ const SignupPage = ({
                     </div>
                     <div className="flex items-center justify-between">
                         <button
-                            className="bg-orange-500 hover:bg-red-600 text-black font-bold py-[6px] px-4 rounded focus:outline-none focus:shadow-outline w-full transition"
+                            className="bg-pink-500 hover:bg-purple-600 text-black font-bold py-[6px] px-4 rounded focus:outline-none focus:shadow-outline w-full transition"
                             type="button"
                             onClick={handleSignUp}
                         >
@@ -138,7 +138,7 @@ const SignupPage = ({
                         </span>
                         <Link
                             to="/login"
-                            className="text-orange-500 hover:text-red-600"
+                            className="text-pink-500 hover:text-purple-600"
                         >
                             Login
                         </Link>

@@ -59,10 +59,10 @@ const LoginPage = ({
                     id="logo-cont"
                     className="inline-block relative text-[24px] left-1/2 -translate-x-1/2 font-bold italic mx-auto mt-[12px]"
                 >
-                    <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600 px-[1px]">
-                        Fire
+                    <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600 px-[1px]">
+                        Code
                     </span>
-                    <span>Code</span>
+                    <span>Quest</span>
                 </div>
             </Link>
             <div className="min-h-fit w-[300px] mx-auto text-[14px]">
@@ -92,7 +92,7 @@ const LoginPage = ({
                     </div>
                     <div className="flex items-center justify-between">
                         <button
-                            className="bg-orange-500 hover:bg-red-600 text-black font-bold py-[6px] px-4 rounded focus:outline-none focus:shadow-outline w-full transition"
+                            className="bg-purple-500 hover:bg-pink-600 text-black font-bold py-[6px] px-4 rounded focus:outline-none focus:shadow-outline w-full transition"
                             type="button"
                             onClick={handleLogin}
                         >
@@ -113,7 +113,7 @@ const LoginPage = ({
                         </span>
                         <Link
                             to="/signup"
-                            className="text-orange-500 hover:text-red-600"
+                            className="text-pink-500 hover:text-purple-600"
                         >
                             Signup
                         </Link>
