@@ -10,6 +10,14 @@
 
 ![alt text](p1.png)
 
+![alt text](p2.png)
+
+![alt text](p3.png)
+
+![alt text](p4.png)
+
+![alt text](p5.png)
+
 # CodeQuest
 
 CodeQuest is a clone of LeetCode, a platform for developers to practice coding problems and improve their skills. This project was created as a full-stack project _(my first full-stack project)_ using Express, MongoDB, Mongoose, TypeScript,TypeScript React (TSX), CSS3, and Tailwind CSS.
