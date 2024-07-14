@@ -7,13 +7,13 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/tailwind%20css-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-# FireCode
+# CodeQuest
 
-FireCode is a clone of LeetCode, a platform for developers to practice coding problems and improve their skills. This project was created as a full-stack project _(my first full-stack project)_ using Express, MongoDB, Mongoose, TypeScript,TypeScript React (TSX), CSS3, and Tailwind CSS.
+CodeQuest is a clone of LeetCode, a platform for developers to practice coding problems and improve their skills. This project was created as a full-stack project _(my first full-stack project)_ using Express, MongoDB, Mongoose, TypeScript,TypeScript React (TSX), CSS3, and Tailwind CSS.
 
 # Demo
 
-You can see the live demo of website at https://fire-code.vercel.app.
+You can see the live demo of website (comming soon)
 
 # Installation
 
