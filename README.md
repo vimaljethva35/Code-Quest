@@ -20,8 +20,8 @@ You can see the live demo of website (comming soon)
 ### Clone the repository and install server and client dependencies:
 
 ```bash
-git clone https://github.com/ManiGhazaee/FireCode.git
-cd FireCode/server
+git clone https://github.com/vimaljethva35/Code-Quest.git
+cd Code-Quest/server
 npm install
 cd ../client
 npm install
