@@ -7,6 +7,8 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/tailwind%20css-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
+https://www.awesomescreenshot.com/video/31765692?key=e84cba7ea47d0260fbd8e42cb7ad9350
+
 
 ![alt text](p1.png)
 
